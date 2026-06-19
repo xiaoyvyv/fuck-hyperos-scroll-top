@@ -79,7 +79,7 @@ fun MainScreen(
                     IconButton(onClick = {
                         context.startActivity(Intent(Intent.ACTION_VIEW).apply {
                             setFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
-                            setData("".toUri())
+                            setData("https://github.com/xiaoyvyv/fuck-hyperos-scroll-top".toUri())
                         })
                     }) {
                         Icon(
